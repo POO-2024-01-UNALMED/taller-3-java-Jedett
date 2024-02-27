@@ -1,4 +1,4 @@
-package main.java.taller3.televisores;
+package taller3.televisores;
 public class TV{
     private Marca marca;
     private int canal=1;
@@ -15,6 +15,9 @@ public class TV{
     }
     public Marca getMarca(){
         return marca;
+    }
+    public void setMarca(Marca marca){
+        this.marca = marca;
     }
     public int getCanal(){
         return canal;

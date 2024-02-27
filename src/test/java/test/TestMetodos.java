@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-import main.java.taller3.televisores.*;
+import taller3.televisores.*;
 
 @TestMethodOrder(MethodOrderer.Alphanumeric.class)
 public class TestMetodos {
